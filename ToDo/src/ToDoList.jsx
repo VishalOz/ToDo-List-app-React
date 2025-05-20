@@ -65,11 +65,11 @@ function ToDoList() {
                             </button>
                             <button className="move-button"
                             onClick = {() => moveTaskUp(index)}>
-                                 🔼
+                                 ▲
                             </button>
                             <button className="move-button"
                             onClick = {() => moveTaskDown(index)}>
-                                 🔽
+                                 ▼
                             </button>
                         </li>
                     )}

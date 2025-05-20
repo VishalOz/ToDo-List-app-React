@@ -1,77 +1,111 @@
 body {
-  background: #3e3e3e;
+  background-image: url('https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/10613667/10613667-1631006606896-c1ba423fe2cfd.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  
 }
 
 .to-do-list {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 540px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #fdfbfb, #ebedee);
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+  font-family: 'Inter', sans-serif;
+}
+
+.to-do-list h1 {
   text-align: center;
-  margin-top: 100px;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
 }
 
-h1 {
-  font-size: 1.7rem;
-  color: white;
-}
-
-button {
-  font-size: 1.7rem;
-  font-weight: bold;
-  padding: 10px 20px;
-  color: white;
+.to-do-list input[type="text"] {
+  width: calc(100% - 100px);
+  padding: 12px;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.5s ease;
+  border-radius: 12px;
+  font-size: 16px;
+  background: #f0f0f3;
+  box-shadow: inset 2px 2px 5px #d1d9e6, inset -5px -5px 10px #ffffff;
+  transition: all 0.3s ease;
+}
+
+.to-do-list input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 1px 1px 3px #d1d9e6, inset -1px -1px 3px #ffffff;
 }
 
 .add-button {
-  background-color: #12de31;
+  padding: 12px 20px;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
 }
+
 .add-button:hover {
-  background-color: #0fb928;
-}
-
-.delete-button {
-  background-color: #ed1b1b;
-}
-.delete-button:hover {
-  background-color: #d41919;
-}
-
-.move-button {
-  background-color: #1b80ed;
-}
-.move-button:hover {
-  background-color: #1973d4;
-}
-input[type="text"] {
-  font-size: 1.6 rem;
-  padding: 10px;
-  border: 2px solid rgb(182, 178, 178);
-  border-radius: 5px;
-  color: black;
+  background-color: #574fd6;
 }
 
 ol {
-  padding: 0;
+  margin-top: 24px;
+  padding-left: 0;
+  list-style: none;
 }
+
 li {
-  font-size: 2 rem;
-  font-weight: bold;
-  padding: 15px;
-  background-color: #fbfbfb;
-  margin-bottom: 10px;
-  border: 3px solid rgb(228, 226, 226);
-  border-radius: 5px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  margin-bottom: 12px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
 }
+
+li:hover {
+  transform: translateY(-2px);
+}
+
 .text {
   flex: 1;
+  font-size: 16px;
+  color: #444;
 }
-.delete-button, .move-button {
-  padding: 8px 12px;
-  font-size: 1.4rem;
-  margin-left: 10px;
 
+.delete-button,
+.move-button {
+  margin-left: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  color: #777;
+  transition: color 0.2s ease;
+}
+
+.delete-button {
+  color: #e74c3c;
+}
+
+.delete-button:hover {
+  color: #c44132;
+}
+
+.move-button {
+  color: #5ddebe;
+}
+
+.move-button:hover {
+  color: #4ebba0;
 }
