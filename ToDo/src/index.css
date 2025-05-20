@@ -1,15 +1,77 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+  background: #3e3e3e;
 }
 
+.to-do-list {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 1.7rem;
+  color: white;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button {
+  background-color: #12de31;
+}
+.add-button:hover {
+  background-color: #0fb928;
+}
+
+.delete-button {
+  background-color: #ed1b1b;
+}
+.delete-button:hover {
+  background-color: #d41919;
+}
+
+.move-button {
+  background-color: #1b80ed;
+}
+.move-button:hover {
+  background-color: #1973d4;
+}
+input[type="text"] {
+  font-size: 1.6 rem;
+  padding: 10px;
+  border: 2px solid rgb(182, 178, 178);
+  border-radius: 5px;
+  color: black;
+}
+
+ol {
+  padding: 0;
+}
+li {
+  font-size: 2 rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #fbfbfb;
+  margin-bottom: 10px;
+  border: 3px solid rgb(228, 226, 226);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
+.delete-button, .move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+
+}
