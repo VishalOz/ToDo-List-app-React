@@ -3,26 +3,21 @@
 ## 📸 Screenshot
 
 ![App Preview](./src/Screenshot%202025-05-20%20at%2010.20.17.png)
- <!-- Add screenshot after uploading -->
+
 
 A simple yet feature-rich Todo List application built with React.
 
 ## Features
 
-- Add, edit, and delete tasks
-- Mark tasks as complete
-- Filter tasks by status
-- Persistent storage using localStorage
+- Add, move, and delete tasks
 - Responsive design
 - Clean, modern UI
 
 ## Technologies Used
 
 - React (v18+)
-- React Hooks (useState, useEffect)
+- React Hooks (useState)
 - CSS Modules for styling
-- LocalStorage for data persistence
-- React Icons (optional, if used)
 
 ## Installation
 
