@@ -1,6 +1,6 @@
 # React Todo List App
 
-![Todo App Screenshot](../src/Screenshot 2025-05-20 at 10.20.17.png) <!-- Add screenshot after uploading -->
+[Todo App Screenshot](./src/Screenshot-2025-05-20-at-10.20.17.png) <!-- Add screenshot after uploading -->
 
 A simple yet feature-rich Todo List application built with React.
 
